@@ -1,0 +1,10 @@
+<div id="qualitiesList">
+
+  <div *ngFor="let quality of qualities" class="qualityItem">
+    <div class="qualityIcon">
+      <img [src]="quality.iconUrl" alt="">
+    </div>
+    <span>{{quality.description}}</span>
+  </div>
+
+</div>

@@ -1,0 +1,18 @@
+<div id="feedList">
+  <div *ngFor="let costumer of feed" class="costumer">
+    <div class="costumer-info">
+      <div class="costumerIcon">
+        <img [src]="costumer.photoUrl" alt="Regina">
+      </div>
+      <div class="costumerDetails">
+        <span class="name">{{costumer.name}}</span>
+        <span>
+          <app-star [rating]="costumer.rating"></app-star>
+        </span>
+      </div>
+    </div>
+    <span class="costumerCommentary">
+      {{costumer.commentary}}
+    </span>
+  </div>
+</div>

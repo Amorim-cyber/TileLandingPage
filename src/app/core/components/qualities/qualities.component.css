@@ -1,0 +1,39 @@
+#qualitiesList{
+  width: 320px;
+}
+
+.qualityItem{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 60px;
+  border-top: solid rgba(88, 50, 8, 1) 3px;
+  border-bottom: solid rgba(88, 50, 8, 1) 3px;
+  border-right: solid rgba(88, 50, 8, 1) 3px;
+  border-top-right-radius: 22.5px;
+  border-bottom-right-radius: 22.5px;
+}
+
+.qualityIcon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 45px;
+  height: 45px;
+  border-top-right-radius: 22.5px;
+  border-bottom-right-radius: 22.5px;
+  background-color: rgba(88, 50, 8, 1);
+}
+
+img{
+  width: 25px;
+  height: 25px;
+}
+
+span{
+  margin-left:10px;
+  font-size: 20px;
+  color:rgba(88, 50, 8, 1);
+  font-weight: 500;
+}
