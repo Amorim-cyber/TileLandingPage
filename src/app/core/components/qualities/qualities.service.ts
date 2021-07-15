@@ -15,19 +15,19 @@ export class QualitiesServices{
 
 var QUALITIES: Qualities[] = [
   {
-    iconUrl: '/assets/images/bx-medal.svg',
+    iconUrl: './assets/images/bx-medal.svg',
     description: 'Mais de 50 anos de mercado'
   },
   {
-    iconUrl: '/assets/images/bx-user.svg',
+    iconUrl: './assets/images/bx-user.svg',
     description: 'Atendimento personalizado'
   },
   {
-    iconUrl: '/assets/images/bx-customize.svg',
+    iconUrl: './assets/images/bx-customize.svg',
     description: 'Piso para todos os gostos'
   },
   {
-    iconUrl: '/assets/images/bx-box.svg',
+    iconUrl: './assets/images/bx-box.svg',
     description: 'Entrega em todo o Brasil'
   }
   ]
