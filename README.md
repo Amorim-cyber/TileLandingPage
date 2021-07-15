@@ -1,27 +1,49 @@
-# LandingPage
+# LandingPage :framed_picture:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2.
+#### INÍCIO
 
-## Development server
+Fala galera, esta é minha Landing Page que tem o intuito de oferecer promoções de pisos hidráulicos somente para os usuários que se cadastrarem na página.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Procurei aplicar os conceitos que aprendi quando estava desenvolvendo o Projeto-Dio-Live4 (Link do repositório: https://github.com/Amorim-cyber/Projeto-Dio-Live4) 
 
-## Code scaffolding
+Segue o link para acessar a página:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```shell script
+https://amorim-cyber.github.io/TileLandingPage/PROMO%C3%87%C3%83O
+```
 
-## Build
+#### TECHS UTILIZADAS
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* Node.js
+* Angular CLI
+* Alguma IDE de sua escolha
 
-## Running unit tests
+#### INSTRUÇÕES
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Caso você queira rodar a site em sua máquina local siga os seguintes passos:
 
-## Running end-to-end tests
+1. Baixe os arquivos deste repositório
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. Execute o comando `ng serve` em seu terminal dentro do diretório deste projeto
 
-## Further help
+   <img src="img/passo2.PNG" style="border: solid grey; border-radius:4px"></img>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. Digite `http://localhost:4200/PROMOÇÃO`  no seu navegador.
+
+<img src="img/passo3.PNG" style="border: solid grey; border-radius:4px"></img>
+
+#### PRONTO
+
+ A página está pronta para uso.
+
+<img src="img/page.PNG" style="border: solid grey; border-radius:4px"></img>
+
+#### Observações importantes:
+
+1. Está página foi criada para fins ilustrativos, não há funcionalidade para o botão ENVIAR.
+2. A página retorna um erro 404 caso o link sofra alterações
+
+
+
+#### Forte abraço a todos! :smile:
+
