@@ -14,19 +14,19 @@ export class FeedService{
 
 var FEED: Feed[] = [
   {
-    photoUrl: '/assets/images/regina.jpg',
+    photoUrl: './assets/images/regina.jpg',
     name: 'Regina C.',
     rating: 5,
     commentary: 'Muita variedade de cores e tamanhos, enlouquecedor essa loja!'
   },
   {
-    photoUrl: '/assets/images/isadora.jpg',
+    photoUrl: './assets/images/isadora.jpg',
     name: 'Isadora L.',
     rating: 4.5,
     commentary: 'Instalei lá em casa, muito boa a qualidade. Recomendo!'
   },
   {
-    photoUrl: '/assets/images/matheus.jpg',
+    photoUrl: './assets/images/matheus.jpg',
     name: 'Matheus A.',
     rating: 4,
     commentary: 'Os pisos são excelentes e com um bom custo e benefício.'
